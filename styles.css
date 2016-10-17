@@ -1,55 +1,50 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
-
 body {
-	background-image: url('images/hard-paper-texture.jpg');
-	backgroud-position: bottom right;
-	background-repeat: repeat-x;
-	background-color: seagreen
+    background-image: url('images/hiking-the-sand-dunes.jpg');
+    background-position: top left;
+    background-repeat: repeat-x;
+    font-family: Courier New;
+    background-color: lightslategray;
 }
-
 h1,h2,h3,h4,h5,h6{
-	font-family: franklin gothic;
+    font-family: Comic Sans MS;
 }
 
-
+aside.more-info img {
+    width: 155px;
+    height: auto;
+}
 header.page-header {
-	background: lightcyan;
-	padding: 1rem;
-	border: solid 1px black;
+    /*background: lightcyan;*/
+    background: lightgreen;
+    padding: 1rem;
+    border-style: dotted;
+    border-width: 2px;
 }
 .page-header h1 {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 .page-header p {
-	margin-top: 0;
-}
-.page-header small {
-	font-size: medium;
+    margin-top: 0;
 }
 aside.more-info {
-/* 	background: lightgoldenrodyellow */
-}
-aside.more-info img {
-	width: 150px;
-	height: auto;
+    /*background: lightgreen;*/
 }
 section#content {
-/* 	background: lightseagreen */
+    /*background:lightsalmon;*/
+}
+footer.page-footer {
+    /*background: lightgray*/
+    background: lightseagreen;
 }
 .poem {
-	list-style-type: none;
+    list-style-type: none;
+    line-height: 50px;
 }
 .poem li {
-	font-size: larger;
-	line-height: 1.9;
+    font-size: x-large;
 }
 
-.poem ::first-letter{
-	font-size: 25px;
-	color: darkred
-}
 
-footer.page-footer {
-/*  	background: lightsalmon  */
-}
+
+
+
